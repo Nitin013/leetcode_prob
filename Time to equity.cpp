@@ -13,7 +13,7 @@ void TimeToEquity(std::vector<int> &vec){
     for(int i=0;i<vec.size()-1;i++){
         ans=ans+vec[vec.size()-1]-vec[i];
     }
-    std::cout<<"time ot equity"<<ans;
+    std::cout<<"time ot equity is = "<<ans;
     
 }
 int main()
