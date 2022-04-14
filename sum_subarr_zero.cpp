@@ -20,8 +20,16 @@ bool sum_subarr_null(vector<int> &vec){
         return true;
 }
 int main(){
-    vector<int> vec={2,2,9,-3,8};
-    int ans;
+    vector<int> vec;
+    int ans,n;
+    cout<<"enter the size of arr";
+    cin>>n;
+    for(int i=0;i<n;i++){
+        int temp;
+        cout<<"enter the element";
+        cin>>temp;
+        vec.push_back(temp);
+    }
     ans=sum_subarr_null(vec);
     if(ans==0){
         cout<<"false";
