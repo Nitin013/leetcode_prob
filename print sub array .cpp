@@ -12,13 +12,11 @@ void subarr(vector<int> &vec){
                 cout<<temp[k];
             }
             cout<<endl;
-        }
-        
+        } 
     }
 }
 
-int main()
-{
+int main(){
     vector<int> vec;
     cout<<"enter the size of vector";
     int n;
@@ -30,6 +28,5 @@ int main()
         vec.push_back(temp);
     }
     subarr(vec);
-
     return 0;
 }
