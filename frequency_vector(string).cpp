@@ -13,7 +13,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include<unordered_set>
 using namespace std;
 void frequency(vector<string> &st){
-     unordered_set<string> s;
+    unordered_set<string> s;
     map<string,int> mp;
     vector<int> vec;
     for(int i=0;i<st.size();i++){
