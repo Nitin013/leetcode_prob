@@ -1,3 +1,6 @@
+// time complexity is O(n)
+
+
 #include<iostream>
 #include<vector>
 #include<string>
