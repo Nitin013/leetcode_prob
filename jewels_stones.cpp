@@ -22,5 +22,5 @@ int main(){
     cin>>jewels;
     cout<<"enter the stones string";
     cin>>stones;
-    cout<<"No.of jewels you have = "<<numJewelsInStones(jewels,stones);
+    cout<<"No.of jewels stones you have = "<<numJewelsInStones(jewels,stones);
 }
