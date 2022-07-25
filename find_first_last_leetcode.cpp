@@ -1,3 +1,5 @@
+####### time conplexity is 0(n)##########
+
 #include<iostream>
 #include<vecotr>
 using namespace std;
