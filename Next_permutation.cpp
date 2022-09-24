@@ -1,4 +1,7 @@
-   #include<iostream>
+time complexity is O(n) //
+space complexity is O(1)//
+
+#include<iostream>
    #include<vector>
    using namespace std;
    #include<algorithm>
