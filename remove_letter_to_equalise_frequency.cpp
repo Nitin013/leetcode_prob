@@ -1,3 +1,5 @@
+//  time complexity O(s) , where size of s is size of string
+
 #include<iostream>
 #include<vector>
 #include<string>
