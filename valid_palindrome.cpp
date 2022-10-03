@@ -1,3 +1,5 @@
+// time complexity O(n);
+
 #include<iostream>
 #include<vector>
 #include<string>
@@ -16,9 +18,6 @@ public:
                 }
 
         }
-        // for(int i=0;i<vec.size();i++){
-        //     cout<<vec[i];
-        // }
         if(vec.size()==0||vec.size()==1){
             
             return true;
