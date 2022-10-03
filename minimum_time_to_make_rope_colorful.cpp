@@ -1,3 +1,5 @@
+// time complexity O(n^2log(n))
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
