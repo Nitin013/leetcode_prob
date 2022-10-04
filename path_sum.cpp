@@ -1,3 +1,5 @@
+// Time complexity is O(n).
+
 #include<iostream>
 #include<vector>
 using namespace std;
