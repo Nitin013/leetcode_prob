@@ -1,3 +1,5 @@
+// time complexity is O(n)
+
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
