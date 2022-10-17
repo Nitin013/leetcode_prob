@@ -1,3 +1,5 @@
+// time compelxity is O(N);
+
 #include<iostream>
 #include<vector>
 #include<string>
