@@ -1,3 +1,5 @@
+time complexity O(nlogn);
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
