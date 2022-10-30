@@ -1,12 +1,16 @@
 #include <iostream>
 #include<vector>
 using namespace std;
-int find(int val,vector<int> &vec){
+
+
+int find(int val,vector<int> &vec){ // function that tell about the leader of the independent disjoint set
       while(vec[val]!=val){
 	      val=vec[val];
       }
       return val;
 }
+
+
 int main() {
 	int num,m;
 	cin >> num>>m;    //Reading input from STDIN
